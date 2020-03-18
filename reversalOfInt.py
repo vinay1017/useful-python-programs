@@ -30,6 +30,6 @@ class reversal(object):
 
 print(reversal.reverseInt(123))
 print(reversal.reverseInt(-123))
-print(reversal.reverseInt(-120))
+print(reversal.reverseInt(-1200000))
 
 
