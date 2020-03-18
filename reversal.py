@@ -25,11 +25,12 @@ class reversal(object):
         return y
 
     def reverseString(s):
-        ## work in progress
-        return s
+        str = ""
+        for i in s:
+            str = i + str
+        return str
 
 print(reversal.reverseInt(123))
 print(reversal.reverseInt(-123))
 print(reversal.reverseInt(-1200000))
-
-
+print(reversal.reverseString("this is a test"))
